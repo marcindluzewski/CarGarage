@@ -25,9 +25,22 @@ public class Main {
 //        third_car.carDetails();
 //        third_car.setItWork(false);
 //        third_car.carDetails();
-        fifth_car.carPetrol();
-        fifth_car.setPetrol("Diesel");
-        fifth_car.carPetrol();
+//        fifth_car.carPetrol();
+//        fifth_car.setPetrol("Diesel");
+//        fifth_car.carPetrol();
+
+//        third_car.startEngine();
+//        third_car.stopEngine();
+
+        Phone phoneOne = new Phone("Oppo", "black", 72, true);
+        Phone phoneTwo = new Phone("iPhone", "silver", 10245142, true);
+        Phone phoneFour = new Phone("Nokia", "blue and orange", 5210, false);
+
+        System.out.println(phoneOne.getModel());
+        phoneFour.setSeries(3210);
+        phoneTwo.setColor("white");
+        System.out.println(phoneFour.getSeries());
+        System.out.println(phoneTwo.getColor());
 
 
     }

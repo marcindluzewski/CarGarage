@@ -66,4 +66,9 @@ public class Car {
     }
 
 
+    public void startEngine() {
+    }
+
+    public void stopEngine() {
+    }
 }
