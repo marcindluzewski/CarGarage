@@ -36,12 +36,21 @@ public class Main {
         Phone phoneTwo = new Phone("iPhone", "silver", 10245142, true);
         Phone phoneFour = new Phone("Nokia", "blue and orange", 5210, false);
 
-        System.out.println(phoneOne.getModel());
-        phoneFour.setSeries(3210);
-        phoneTwo.setColor("white");
-        System.out.println(phoneFour.getSeries());
-        System.out.println(phoneTwo.getColor());
+//        System.out.println(phoneOne.getModel());
+//        phoneFour.setSeries(3210);
+//        phoneTwo.setColor("white");
+//        System.out.println(phoneFour.getSeries());
+//        System.out.println(phoneTwo.getColor());
 
+        Calculator setOne = new Calculator(4,16);
+        Calculator setTwo = new Calculator(59, 61);
+        Calculator setThree = new Calculator(123, 321);
+        Calculator setFour = new Calculator(44096, 64);
+
+        setOne.addition();
+        setTwo.substraction();
+        setThree.multiplication();
+        setFour.division();
 
     }
 }
