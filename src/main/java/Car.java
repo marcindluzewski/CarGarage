@@ -38,5 +38,32 @@ public class Car {
         return mark;
     }
 
+    public int getProductionYear(){
+        return productionYear;
+    }
+
+    public boolean getIsItWork(){
+        return isItWork;
+    }
+
+    public String getPetrol(){
+        return petrol;
+    }
+
+    public void setMark(String mark) {
+        this.mark = mark;
+    }
+    public void setProductionYear(int productionYear){
+        this.productionYear = productionYear;
+    }
+
+    public void setItWork(boolean isItWork){
+        this.isItWork = isItWork;
+    }
+
+    public void setPetrol(String petrol){
+        this.petrol = petrol;
+    }
+
 
 }
