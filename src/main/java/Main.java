@@ -42,15 +42,21 @@ public class Main {
 //        System.out.println(phoneFour.getSeries());
 //        System.out.println(phoneTwo.getColor());
 
-        Calculator setOne = new Calculator(4,16);
-        Calculator setTwo = new Calculator(59, 61);
-        Calculator setThree = new Calculator(123, 321);
-        Calculator setFour = new Calculator(44096, 64);
+//        Calculator setOne = new Calculator(4,16);
+//        Calculator setTwo = new Calculator(59, 61);
+//        Calculator setThree = new Calculator(123, 321);
+//        Calculator setFour = new Calculator(44096, 64);
+//
+//        setOne.addition2();
+//        setTwo.substraction2();
+//        setThree.multiplication2();
+//        setFour.division2();
 
-        setOne.addition();
-        setTwo.substraction();
-        setThree.multiplication();
-        setFour.division();
+        Calculator.addition(2,2);
+        Calculator.substraction(5, 9);
+        Calculator.multiplication(123,321);
+        Calculator.division(44096,64);
+
 
     }
 }
